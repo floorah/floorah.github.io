@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>Just Cucumber Recipes!</h1>
+            <p>seriously, every recipe involves cucumber!</p>
+        </header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">RECIPES</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+        </nav>
+        <aside class="filter">
+            <h2>
+                <span>If you liked this recipe,</span> 
+                <br> 
+                <span> you might also like... </span> 
+                <br> 
+                <span class="linebreak"> <a href="">Cucumber Rolls</a> </span> 
+            </h2>
+        </aside>
+        <aside class="ingredients">
+            <h2>Ingredients</h2>
+            <ul>
+                <li>1 whole cucumber</li>
+                <li>1tbsp cream cheese</li>
+                <li>100g of diced smoked salmon</li>
+                <li>1/2 a diced red onion</li>
+                <li>1tsp of capers</li>
+                <li>A chopped handful of dill</li>
+                <li>A healthy pinch of MSG</li>
+                <li>Everything bagel seasoning (or sesame seeds, salt, and black pepper alternatively)</li>
+            </ul>
+        </aside>
+        <main class="recipe">
+                <h2>The Viral Salmon Bagel Cucumber Salad</h2>
+                <p>Step 1: Thinly slice the entire cucumber into a large container (sealable is best)</p>
+                <p>Step 2: Add the cream cheese, salmon, capers, dill, red onion and MSG</p>
+                <p>Step 3: Seal the container and shake well (alternatively stir until mixed)</p>
+                <p>Step 4: Top with everything bagel seasoning and enjoy!</p>
+
+                <div class="image">
+                    <img src="illustration.jpg" alt="cucumber illustration">
+                </div>
+        </main>
+        <div class="extra">
+            <hr>
+            <h2 id="form">Do you love this green veggie? Sign up for our newsletter!</h2>
+            <form action="" method="">
+               <label for="first_name">First Name:</label>
+               <input type="text" id="first_name" name="first_name" required>
+               <br>
+               
+               <label for="last_name">Last Name:</label>
+               <input type="text" id="last_name" name="last_name" required>
+               <br>
+               
+               <label for="email">Email:</label>
+               <input type="email" name="email" id="email">
+               <br>
+               
+               <label for="password">Password:</label>
+               <input type="password" name="password" id="password">
+               <br>
+   
+               <label for="favourite_vegetable">Favourite Vegetable:</label>
+               
+               <input type="radio" name="favourite_vegetable" id="cucumber" value="cucumber">
+               <label for="cucumber">Cucumber</label>
+              
+               <input type="radio" name="favourite_vegetable" id="cucumber2" value="cucumber2">
+               <label for="cucumber2">Cucumber</label>
+               
+               <input type="radio" name="favourite_vegetable" id="cucumber3" value="cucumber3">
+               <label for="cucumber3">Cucumber</label>
+               <br>
+   
+               <label for="country">Country:</label>
+               <select name="country" id="country">
+                   <option value="england">England</option>
+                   <option value="wales">Wales</option>
+                   <option value="scotland">Scotland</option>
+                   <option value="northern_ireland">Northern Ireland</option>
+               </select>
+               <br>
+               
+               <label for="bio">Biography </label>
+               <textarea name="bio" id="bio" cols="20" rows="3"></textarea>
+   
+               <input type="checkbox" id="subscribe" name="subscribe">
+               <label for="subscribe">Subscribe to our newsletter</label>
+               <br>
+   
+               <input type="submit" value="Send!">
+   
+           </form>
+        </div>
+        <footer class="footer">
+            <p>&copy; 2024 Cucumber Gods. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
+
